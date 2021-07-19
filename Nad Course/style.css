@@ -1,0 +1,66 @@
+*{
+margin:0;
+/* padding:0;  background-image: url(img/logo.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%; */
+}
+
+/* Nav Tootbar */
+/*  Sticky Used to make topbar scroll along the pageeeeeeeeeeeeeeee*/
+.sticky{
+  position: fixed;
+  top:0px;
+  width:100%
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+li{
+  padding:20px;
+}
+a{
+  color:rgb(113, 113, 190);
+  text-decoration: none;
+}
+.push{
+    /* Fixes the content to left responsive center */
+margin-left:auto;
+}
+/* Cover */
+.container{
+  background-color: white(124, 120, 119);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* Fixes the height responsive center */
+  height:50vh;
+}
+.cover{
+  width: 30rem;
+}
+/* CSS Grids */
+.wrapper-grid{
+  background-color: rgba(77, 209, 169, 0.513);
+  display: grid;
+  grip-gap:20px;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+/* Children of box image parent should have width of 100% */
+.box >img{   
+  width: 100%;
+}
+.box{
+  background-color: black;
+  padding: 100px;
+  margin:30px;
+}
+
+/* Footer */
+.zone_footer{
+  background-color: rgb(206, 218, 42);
+  text-align: center;
+}
